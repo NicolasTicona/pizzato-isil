@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lato";
+}
+
+body{
+	overflow-x: hidden;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+:root{
+	--naranja: #FF9506;
+	--secundario: #211717;
+}
+
+header{
+	width: 100%;
+	/*position: relative;*/
+	background: #fff;
+	overflow-x: hidden;
+}
+
+header .top{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 40px;
+	/*padding: 40px;*/
+	align-items: center;
+}
+
+header .top .brand img{
+	/*height: 190px;*/
+	/*width: 190px*/
+}
+
+header .top .delivery{
+	background: var(--naranja);
+	padding: 40px;
+	transform: skewX(-15deg);
+}
+
+header .top .delivery img{
+	width: 50px;
+	transform: skewX(15deg);
+}
+header .top .delivery p{
+	display: inline-block;
+	transform: skewX(15deg);
+	margin: 0px 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+header nav{
+	background: var(--secundario);
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding-left: 40px;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #fff;
+	margin: 0px 20px;
+	padding: 25px 20px;
+	font-weight: 300;
+	font-size: 20px;
+	border-bottom: 5px solid transparent;
+	transition: border .3s ease;
+	/*transition-delay: .3s;*/
+}
+header nav a:hover{
+	background: var(--naranja);
+}
+
+/*======================================*/
+
+main{
+	width: 100%;
+	margin: 150px auto;
+}
+
+
+main .pizzawallpaper{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	transform: skew(-20deg);
+}
+
+main .pizzawallpaper img{
+	width: 100%;
+	filter: drop-shadow(0 0 10px #000) ;
+}
+
+.pizzawallpaper .top{
+	width: 100%;
+	height: 500px;
+	background: url('img/pizza_horno.jpg');
+	background-size: cover;
+	background-position: center;
+	transform: skew(11deg);
+}
+
+.pizzawallpaper .top .publicity{
+	font-size: 80px;
+	color: #fff;
+	font-weight: 700;
+	padding: 40px 0 0 40px;
+}
+.pizzawallpaper .top .publicity-subtitle{
+	font-size: 40px;
+	font-weight: 400;
+	padding: 0 20px;
+	color: #fff;
+}
+
+.pizzawallpaper .bottom{
+	display: flex;
+	justify-content: center;
+	transform: skew(14deg);
+	height: 500px;
+}
+
+.pizzawallpaper .bottom img{
+	width: 50%;
+	min-width: 700px;
+}
+
+/*==============================*/
+
+main .pizzacontainer{
+	position: relative;
+	width: 90%;
+	margin: auto;
+	padding: 400px 30px 0 30px;
+}
+
+main .pizzacontainer .pizzamenu{
+	position: absolute;
+	right: 10%;
+	top: -300px;
+	background: var(--secundario);
+	width: 700px;
+	padding: 30px;
+	transition: all .3s ease;
+	border-radius: 5px 0px 10% 0px;
+}
+main .pizzacontainer .pizzamenu:hover > a{
+	transform: scale(1.1);
+}
+
+.pizzamenu .title{
+	font-size: 70px;
+	font-weight:700;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.pizzamenu a{
+	color: #fff;
+	display: inline-block;
+	float: right;
+	background: var(--naranja);
+	text-decoration: none;
+	padding: 30px 20px;
+	font-size: 20px;
+	border-radius: 30% 0px 30% 0px;
+	transition: all.3s ease;
+}
+
+.pizzamenu .gallery{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.pizzamenu .gallery .menu-item{
+	width: 45%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.pizzamenu .gallery .menu-item img{
+	width: 100%;
+	transition: all .3s ease;
+}
+
+.pizzamenu .gallery .menu-item .item-name{
+	font-weight: 700;
+	font-size: 30px;
+	color: #fff;
+}
+
+/*==============================================*/
+
+footer{
+	margin-top: 300px;
+}
+
+footer .networks{
+	padding: 20px 30px;
+}
+
+footer .networks p{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+footer .networks img{
+	width: 30px;
+	vertical-align: middle;
+	margin: 0px 10px;
+	cursor: pointer;
+}
+
+footer hr{
+	height: 10px;
+	border: none;
+	background: var(--naranja);
+	margin: auto;
+}
+footer .information{
+	background: var(--secundario);
+	padding: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .information .other-links ul li{
+	list-style: square;
+	color: #fff;
+	font-weight: 700;
+	margin: 10px 0;
+}
+
+footer .information img{
+	margin-left: 100px;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+
+section{
+    margin: 11%;
+}
+.asd{
+    display: inline-block;
+}
+img{
+    height: 250px;
+    margin-left: 22%;
+    width: 250px;
+}
+.asd h1{
+    font-size: 30px;
+}
+.asd p{
+    font-size: 16px;
+}
+#bn{
+    display: flex;
+    justify-content: space-around;
+
+    flex-direction: row;
+    align-items: center;
+}

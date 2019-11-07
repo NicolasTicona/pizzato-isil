@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+
+}
+#zx h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 11%;
+}
+
+#lap{
+    margin: 0 11%;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.hl{
+    width: calc(50% - 48px);
+    padding: 24px;
+}
+.hl img{
+    width: 100%;;
+}
+.hl p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.hl a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+}
+.hl a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+
+#pes{
+    margin: 0 11%;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;}
+
+
+    .oe{
+        width: calc(50% - 48px);
+        padding: 24px;
+    }
+    .oe img{
+        width: 100%;;
+    }
+    .oe p{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .oe a{
+        text-decoration: none;
+        color: black;
+        display: block;
+        font-size: 16px;
+        text-align: center;
+    }
+    .oe a:hover{
+        color: black;
+        font-weight: bold;
+    }
